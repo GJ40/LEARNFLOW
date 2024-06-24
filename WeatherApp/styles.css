@@ -1,0 +1,111 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: hsla(0, 0%, 0%, 0.7);
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+    padding: 20px 20px;
+    background-color: lightskyblue;
+}
+#topPart{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    background-color: hsl(203, 94%, 65%);
+    padding: 10px 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+#locateIcon{
+    height: 25px;
+}
+#locationInput{
+    font-size: 1.5rem;
+    width: 64%;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 5px 5px;
+}
+#topPart button{
+    font-size: 1.4rem;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 5px 5px;
+    cursor: pointer;
+    background-color: white;
+    border: 2px solid white;
+}
+#topPart button:hover{
+    color: white;
+    background-color: blue;
+    border-color: blue;
+}
+#topPart button:active{
+    color: blue;
+    background-color: white;
+    border-color: blue;
+}
+#midPart{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.midBoxes{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    text-align: center;
+    width: auto;
+    margin: 10px;
+    background-color: white;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 5px;
+}
+#weatherIcon{
+    height: 150px;
+}
+#bottomPart{
+    display: flex;
+    flex-direction: row;
+}
+.bottomBoxes{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    text-align: center;
+    width: auto;
+    margin: 10px;
+    background-color: white;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 5px;
+}
+.bottomIcons{
+    height: 90px;
+    width: 90px;
+
+}
+.bottomLabels{
+    font-weight: bold;
+}
+.tags{
+    font-size: 1.1rem;
+    margin: auto;
+    font-weight: bold;
+}

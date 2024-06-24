@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Weather-App</title>
+</head>
+<body>
+    <h1>Weather App</h1>
+    <div class="card">
+        <div id="topPart">
+            <form class="weatherForm">
+                <input type="text" placeholder="Enter City" id="locationInput">
+                <button type="submit" id="getWeatherBtn">Get Weather</button>
+            </form>
+            <button onclick="getLocation()">
+                <img id="locateIcon" src="icons8-location-60.png">
+            </button><br>
+            
+        </div>
+        <p id="feedBack"></p>
+        <div id="midPart">
+            <section class="midBoxes">
+                <label for="weatherIcon" id="weather">weather</label>
+                <img id="weatherIcon" src="assets/weather-icons/01d.svg">
+            </section>
+            <section class="midBoxes">
+                <h2 id="tempLabel">Temp</h2>
+                <p id="infoTag">location 00:00 AM</p>
+            </section>
+        </div>
+        <div id="bottomPart">
+            <section class="bottomBoxes">
+                <p class="tags">Humidity</p>
+                <img class="bottomIcons" src="humidity.png">
+                <label class="bottomLabels" id="humidity">- %</label>
+            </section>
+            <section class="bottomBoxes">
+                <p class="tags">Wind</p>
+                <img class="bottomIcons" src="icons8-wind-100.png">
+                <label class="bottomLabels" id="wind">- km/h</label>
+            </section>
+            <section class="bottomBoxes">
+                <p class="tags">Visbility</p>
+                <img class="bottomIcons" src="icons8-visibility-100.png">
+                <label class="bottomLabels" id="visibility">- km</label>
+            </section>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
