@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="css/styles.css"/>
+  <script src="js/main.js" type="module"></script>
+  <title>Fitness-Tracker-App</title>
+</head>
+<body>
+  <header>
+    <i class="fa-solid fa-dumbbell" style="margin-left: 2%; color: #df6c4f;"></i>
+    <i class="fa-solid fa-heart fa-2xl" style="color: #e46c5a;"></i>
+    <nav>
+      <a class="headerLinks" href="#app">Log Workout</a>
+      <a class="headerLinks" href="#goals">Set Goals</a>
+      <a class="headerLinks" href="#progress">Track Progress</a>
+      <a class="headerLinks" href="#">Blogs</a>
+    </nav>
+  </header>
+  <h2 class="sectionHeaders">Log Workouts</h2>
+  <div class="containers" id="app">
+    <!--
+    <table class="tracker">
+      <thead>
+        <tr>
+          <th>Date</th>
+          <th>Workout</th>
+          <th>Duration</th>
+          <th>status</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody class="trackerEntries">
+        <tr class="trackerRow">
+          <td>
+            <input type="date" class="trackerDate">
+          </td>
+          <td>
+            <input type="text" class="trackerWorkout" list="workouts">
+            <datalist id="workouts">
+              <option value="Running">Running</option>
+              <option value="Walking">Walking</option>
+              <option value="Cycling">Cycling</option>
+              <option value="Swiming">Swiming</option>
+              <option value="Yoga">Yoga</option>
+              <option value="Push-up">Push-up</option>
+              <option value="Pull-up">Pull-up</option>
+            </datalist>
+          </td>
+          <td>
+            <input type="number" class="trackerDuration" min="1" placeholder="1">
+            <span class="trackerText"> minutes</span>
+          </td>
+          <td>
+            <select class="trackerStatus">
+              <option value="waiting" >Waiting</option>
+              <option value="completed" >Completed</option>
+              <option value="incomplete" >Incomplete</option>
+            </select>
+          </td>
+          <td>
+            <button type="button" class="trackerBtn trackerDel">&times;</button>
+          </td>
+        </tr>
+      </tbody>
+      <tbody>
+        <tr class="trackerRow trackerRowAdd">
+          <td colspan="4">
+            <button type="button" class="trackerAdd">Add Workout &plus;</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    -->
+  </div>
+  <h2 class="sectionHeaders">Set Goals</h2>
+  <div id="goals" class="containers">
+    <div>
+        <input type="text" id="goalInput" placeholder="Enter goal">
+        <button id="goalBtn">Set Goal</button>
+    </div>
+    <ul id="listContainer">
+        <!-- goal li elements here -->
+    </ul>
+  </div>
+  <h2 class="sectionHeaders">Track Progress</h2>
+  <div id="progress" class="containers">
+    <div>
+      <input type="date" id="dateInput" placeholder="Select Date" />
+      <button type="button" id="lookBtn">look</button>
+    </div>
+    <table class="statusTable">
+      <thead>
+        <tr>
+          <th>Complete</th>
+          <th>Incomplete</th>
+        </tr>
+      </thead>
+      <tbody id="statusEntries">
+        <tr class="statusRow">
+          <td>
+            <ol id="completeList">
+              
+            </ol>
+          </td>
+          <td>
+            <ol id="incompleteList">
+              
+            </ol>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <footer>
+    &copy; 2024 Fitness Tracker App
+  </footer>
+  <script src="js/main.js" type="module"></script>
+</body>
+</html>
