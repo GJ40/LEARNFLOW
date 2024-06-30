@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" 
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+    <title>E-Shop | All Products</title>
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <h2><i class="fa-solid fa-mobile fa-xl" style="color: #ffffff;"></i> E-SHOP</h2>
+            </div>
+            <nav>
+                <ul id="menuItems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="">Account</a></li>
+                </ul>
+            </nav>
+            <img src="images/icons8-shopping-cart-50.png" width="30px" height="30px">
+            <img src="images/icons8-menu-50.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+    </div>
+
+     <!--Single product -->
+
+     <div class="small-container single-product">
+        <div class="row">
+            <div class="col-2">
+                <img src="images/product_images/product_1/41BFB+abrcL._SY300_SX300_.jpg" id="product-img" width="100%">
+
+                <div class="small-img-row">
+                    <div class="small-img-col">
+                        <img class="small-img" src="images/product_images/product_1/510jAH6FXOL._SX679_.jpg" alt="">
+                    </div>
+                    <div class="small-img-col">
+                        <img class="small-img" src="images/product_images/product_1/51IR38WW-8L._SX679_.jpg" alt="">
+                    </div>
+                    <div class="small-img-col">
+                        <img class="small-img" src="images/product_images/product_1/71G2iTSK2yL._SX679_.jpg" alt="">
+                    </div>
+                    <div class="small-img-col">
+                        <img class="small-img" src="images/product_images/product_1/81MS1KhiTvL._SX679_.jpg" alt="">
+                    </div>
+                </div>
+
+
+
+            </div>
+            <div class="col-2">
+                <p>Home / smartphone</p>
+                <h2>realme NARZO N65</h2>
+                <h4>₹12,498</h4>
+                <select>
+                    <option>Availabel colors</option>
+                    <option>amber gold</option>
+                    <option >white</option>
+                </select>
+                <input type="number" value="1">
+                <a href="" class="btn">Add To Cart</a>
+                <h3>Product Details <i class="fa-solid fa-indent"></i></h3>
+                <p>realme NARZO N65 5G<br> (Amber Gold 6GB RAM, 128GB Storage) India's 1st D6300 5G Chipset |<br> Ultra Slim Design | 120Hz Eye Comfort Display | 50MP AI Camera|<br> Charger in The box</p>
+                <p></p>
+            </div>
+        </div>
+     </div>
+
+     <div class="small-container">
+        <div class="row row-2">
+            <h2>Related Products</h2>
+            <p>View More</p>
+        </div>
+     </div>
+
+     <div class="small-container">
+        <div class="row row-2">
+            <select name="" id="">
+                <option value="">Default sorting</option>
+                <option value="">Sort by price</option>
+                <option value="">Sort by rating</option>
+                <option value="">Sort by sale</option>
+            </select>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/product_images/product-1.jpg">
+                <h4>Samsung Galaxy M34 5G (Midnight Blue,6GB,128GB)</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-regular fa-star" style="color: #FFD43B;"></i>
+                </div>
+                <p>₹12,999</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product_images/product-2.jpg">
+                <h4>realme GT 6T 5G (Razor Green,8GB RAM+256GB Storage)</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star-half-stroke" style="color: #FFD43B;"></i>
+                </div>
+                <p>₹32,999</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product_images/product-4.jpg">
+                <h4>Samsung Galaxy A15 5G (Blue, 8GB, 128GB Storage)</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-regular fa-star" style="color: #FFD43B;"></i>
+                </div>
+                <p> ₹19,499</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product_images/product-5.jpg">
+                <h4>OPPO A3 Pro 5G (Moonlight Purple, 8GB RAM, 256GB Storage)</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                </div>
+                <p>₹19,999</p>
+            </div>
+        </div>
+        
+        </div>
+    </div>
+
+     <!-- footer -->
+      <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App for Android and ios mobile phone.</p>
+                    <div class="app-logo">
+                        <img src="images/play-store.png">
+                        <img src="images/app-store.png">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <div class="logo-div">
+                        <div class="logo">
+                            <h2><i class="fa-solid fa-mobile fa-xl" style="color: #ffffff;"></i> E-SHOP</h2>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                            Beatae tenetur natus laudantium, fugit, iusto quo distinctio 
+                            aspernatur reiciendis minima id inventore.
+                        </p>
+                    </div>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+                <h3>Follow Us</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>X.com</li>
+                    <li>Instagram</li>
+                    <li>Youtube</li>
+                </ul>
+            </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2024 - E-Shop</p>
+        </div>
+      </div>
+      <script src="script.js"></script>
+</body>
+</html>
