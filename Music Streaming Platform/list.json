@@ -1,0 +1,32 @@
+[
+    {
+        "track-name": "One Love",
+        "artist-name": "Blue",
+        "cover-img": "music/images/BlueOneLove.jpg",
+        "location": "music/tracks/Blue - One Love - BlueVEVO.mp3"
+    },
+    {
+        "track-name": "Get Lucky",
+        "artist-name": "Daft Punk",
+        "cover-img": "music/images/Get_Lucky.jpg",
+        "location": "music/tracks/Daft Punk - Get Lucky (Lyrics) ft. Pharrell Williams, Nile Rodgers - 7clouds.mp3"
+    },
+    {
+        "track-name": "Night Drive",
+        "artist-name": "The Chillers",
+        "cover-img": "images/night_drive.jpg",
+        "location": "tracks/night_drive.mp3"
+    },
+    {
+        "track-name": "Ocean Breeze",
+        "artist-name": "Wave Riders",
+        "cover-img": "images/ocean_breeze.jpg",
+        "location": "tracks/ocean_breeze.mp3"
+    },
+    {
+        "track-name": "Mountain Echoes",
+        "artist-name": "Nature Sounds",
+        "cover-img": "images/mountain_echoes.jpg",
+        "location": "tracks/mountain_echoes.mp3"
+    }
+]

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/luxa/css/luxa.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="css/app.css">
+    <script src="js/main.js" type="module"></script>
+    <title>Music Player</title>
+</head>
+<body>
+    <div id="container" class="container">
+        <div id="sidebar" class="sidebar">
+            <!-- App Header -->
+            <div id="appHeader" class="app-header">
+                <header>
+                    <h2>MUSIC PLAYER</h2>
+                </header>
+            </div>
+            <hr>
+            <!-- navbar -->
+            <nav id="navbar" class="navbar">
+                <a href="#">
+                    <i class="fas fa-home"></i> <span>Home</span>
+                </a>
+                <a href="#">
+                    <i class="fas fa-compass"></i> <span>Discover</span>
+                </a>
+                <a href="#">
+                    <i class="fas fa-chart-line"></i> <span>Charts</span>
+                </a>
+            </nav>
+            <hr>
+            <div id="playlistDiv" class="playlist-div">
+                <div id="playlistHead" class="playlist-head">
+                    <h3>YOUR LIBRARY</h3>
+                    <button id="createPlaylistBtn" class="appBtn">
+                        <i class="fas fa-plus"></i>
+                    </button>
+                </div>
+                <ul id="playlistList" class="playlist-list">
+                    <li>playlist-1</li>
+                </ul>
+            </div>
+            <hr>
+            <div id="otherLinks" class="other-links">
+                <a href="#">
+                    <i class="fas fa-info-circle"></i> <span>About</span>
+                </a>
+            </div>
+        </div>
+        <div id="mainContainer" class="main-container">
+            <div id="searchContainer" class="search-container">
+                <input type="text" placeholder="Search song here">
+                <button><i class="fas fa-search"></i></button>
+            </div>
+            <hr>
+            <div id="resultContainer" class="result-container">
+                <ul id="resultList" class="result-list">
+                    <!--
+                    <li class="tracks">
+                        <div class="trackDetail">
+                            <img src="" alt="cover.png">
+                            <div class="trackTitle">
+                                <span>Track Name</span>
+                                <p>Artist Name</p>
+                            </div>
+                        </div>
+                        <div class="trackBtnDiv">
+                            <button class="appBtn menuBtn"><i class="fas fa-ellipsis-h"></i></button>
+                        </div>
+                    </li>
+                    
+                    <li class="tracks">
+                        <div class="trackDetail">
+                            <img src="" alt="cover.png">
+                            <div class="trackTitle">
+                                <span>Track Name</span>
+                                <p>Artist Name</p>
+                            </div>
+                        </div>
+                        <div class="trackBtnDiv">
+                            <button class="appBtn menuBtn"><i class="fas fa-ellipsis-h"></i></button>
+                            <button class="appBtn closeBtn"><i class="fas fa-times"></i></button>
+                        </div>
+                    </li>
+                    -->
+                </ul>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <hr>
+        <span>&copy;2024 Music Player</span>
+    </footer>
+
+    <!-- Music Bar -->
+     <div id="musicbar" class="musicbar hidden">
+        <div id="trackDetails" class="track-details">
+            <img src="" alt="cover.png">
+            <div id="trackInfo" class="track-info">
+                <span>Track Name</span>
+                <p>Artist Name</p>
+            </div>
+        </div>
+        <div id="controlsDiv" class="controls-div">
+            <audio id="song" controls>
+                <source src="" type="audio/mpeg">
+            </audio>
+            <div id="controls" class="controls">
+                <button id="prevBtn" class="musicbarBtn"><i class="fas fa-backward"></i></button>
+                <button id="playPauseBtn" class="musicbarBtn"><i class="fas fa-play"></i></button>
+                <button id="nextBtn" class="musicbarBtn"><i class="fas fa-forward"></i></button>
+            </div>
+            <div class="range-bar">
+                <input type="range" min="0" max="100" id="rangebar">
+            </div>
+            <div id="rangebarDetails" class="rangebar-details">
+                <p id="currentTime">00:00</p>
+                <p id="trackDuration">00:00</p>
+            </div>
+        </div>
+        <div id="barBtnDiv" class="bar-btn-div">
+            <button class="musicbarBtn"><i class="fas fa-ellipsis-h"></i></button>
+            <button id="barCloseBtn" class="musicbarBtn"><i class="fas fa-times"></i></button>
+        </div>
+     </div>
+</body>
+</html>
